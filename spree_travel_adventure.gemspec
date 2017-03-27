@@ -6,7 +6,7 @@ versions = yaml['gems']
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_travel_tour'
+  s.name        = 'spree_travel_adventure'
   s.version     = versions['spree_travel']
   s.summary     = 'Programs/Packages into spree'
   s.description = 'Add programs logic into spree'
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.authors   = ['Pedro Quintero Rojas', 'Miguel Sancho Feranandez', 'Cesar Lage Codorníu', 'Raul Perez-Alejo Neyra']
   s.email     = 'info@openjaf.com'
-  s.homepage  = 'http://github.com/openjaf/spree_travel_tour'
+  s.homepage  = 'http://github.com/openjaf/spree_travel_adventure'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")

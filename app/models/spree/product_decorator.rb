@@ -1,12 +1,12 @@
 module Spree
   Product.class_eval do
 
-    def tour?
-      self.product_type == Spree::ProductType.find_by_name('tour')
+    def adventure?
+      self.product_type == Spree::ProductType.find_by_name('adventure')
     end
     
-    def self.tours
-      where(product_type_id: Spree::ProductType.find_by_name('tour').id )
+    def self.adventures
+      where(product_type_id: Spree::ProductType.find_by_name('adventure').id )
     end
 
   end

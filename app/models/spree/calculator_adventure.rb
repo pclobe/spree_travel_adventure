@@ -1,5 +1,5 @@
 module Spree
-  class CalculatorTour < BaseCalculator
+  class CalculatorAdventure < BaseCalculator
 
     # TODo, ver esto aqui porque qiz'as es mejor passar directamente el rate.
     def calculate_price(context, product, variant, options)

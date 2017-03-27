@@ -1,3 +1,3 @@
-Spree::Travel::Tour
+Spree::Travel::Adventure
 ----------------------
  
